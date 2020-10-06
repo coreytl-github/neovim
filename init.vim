@@ -10,6 +10,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
 Plug 'scrooloose/nerdcommenter'
+Plug 'mattn/emmet-vim'
 "Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 Plug 'morhetz/gruvbox'
