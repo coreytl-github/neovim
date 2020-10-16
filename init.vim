@@ -1,21 +1,20 @@
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'scrooloose/nerdtree'
+Plug 'neoclide/coc.nvim', {'dir': '/home/corey/.config/nvim/vimPlug/coc', 'branch': 'release'}
+Plug 'scrooloose/nerdtree', {'dir': '/home/corey/.config/nvim/vimPlug/nerdtree'}
 "Plug 'tsony-tsonev/nerdtree-git-plugin'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons'
-Plug 'airblade/vim-gitgutter'
-Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
-Plug 'scrooloose/nerdcommenter'
-Plug 'mattn/emmet-vim'
+Plug 'Xuyuanp/nerdtree-git-plugin', {'dir': '/home/corey/.config/nvim/vimPlug/nerdtree-git-plugin'}
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight', {'dir': '/home/corey/.config/nvim/vimPlug/vim-nerdtree-syntax-highlight'}
+Plug 'ryanoasis/vim-devicons', {'dir': '/home/corey/.config/nvim/vimPlug/vim-devicons'}
+Plug 'airblade/vim-gitgutter', {'dir': '/home/corey/.config/nvim/vimPlug/vim-gitgutter'}
+Plug 'ctrlpvim/ctrlp.vim', {'dir': '/home/corey/.config/nvim/vimPlug/ctrlp'} " fuzzy find files
+Plug 'scrooloose/nerdcommenter', {'dir': '/home/corey/.config/nvim/vimPlug/nerdcommenter'}
+Plug 'mattn/emmet-vim', {'dir': '/home/corey/.config/nvim/vimPlug/emmet'}
 "Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
-Plug 'morhetz/gruvbox'
-
-Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
+Plug 'morhetz/gruvbox', {'dir': '/home/corey/.config/nvim/vimPlug/gruvbox'}
+Plug 'HerringtonDarkholme/yats.vim', {'dir': '/home/corey/.config/nvim/vimPlug/yats'} " TS Syntax
 
 " Initialize plugin system
 call plug#end()
